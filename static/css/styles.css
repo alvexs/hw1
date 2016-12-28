@@ -67,6 +67,9 @@ li > a {
     margin-bottom: 5px;
     font-size: 30px;
 }
+.end-list {
+    margin-bottom: 20px;
+}
 .site-name {
     padding-bottom: 10px;
     font-family: 'Kelly Slab', cursive;
@@ -80,7 +83,7 @@ li > a {
 .ref {
     overflow: auto;
     margin: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     font-size: 25px;
 
 }
@@ -96,6 +99,9 @@ li > a {
     margin-left: 6%;
     margin-right: 4%;
     width: 90%;
+}
+.page-name {
+    margin-bottom: 2%;
 }
 #concept {
 
