@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Интернет Вещей</title>
+        <meta name="description" content="The Homework for IU5 course 'Web App Dev'">
+        <meta charset="utf-8">
+        <link href="static/css/styles.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script type="text/javascript">
+$(document).ready(function(){
+   $('a[href^="#"]').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top}, 500);
+        return false;
+});
+});
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="site-name"  id="cont">Интернет вещей</div>
+                <div class="user-menu">
+                    <div>Выполнил студент группы ИУ5-53 Иванников Александр</div>
+                </div>
+        </header>
+        <div class="wrapp">
+            <div class="contents">
+                <div class="main-cont">Оглавление</div>
+                <ul>
+                    <li><a href="#concept">Концептуальная карта</a></li>
+                    <li><a href="#intro">Введение</a></li>
+                    <li><a href="#history">История</a></li>
+                    <li><a href="#concept">Концепция</a></li>
+                    <li><a href="#concept">Технологии</a>
+                        <ul>
+                             <li><a href="#concept">Средства идентификации</a></li>
+                             <li><a href="#concept">Средства измерения</a></li>
+                             <li><a href="#concept">Средства обработки данных</a></li>
+                             <li><a href="#concept">Средства передачи данных</a></li>
+                             <li><a href="#concept">Безопасность</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#concept">Преимущества и недостатки</a></li>
+                    <li><a href="#concept">Прогнозы</a></li>
+                    <li><a href="#concept">Заключение</a>
+                        <ul>
+                             <li><a href="#concept">Используемые материалы</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="concept" class="content-full">
+                <div class="ref">
+                    <a href="#cont" style=" color: black;  float: left;">< К оглавлению</a>
+                    <a style=" color: black; text-decoration: none; font-size: 40px; float: left; margin-left: 25%;">Концептуальная карта</a>
+                    <a href="#intro" style=" color: black;  float: right;">Введение ></a>
+                </div>
+                <img src="static/img/IOT_RIP.jpg" alt="concept">
+            </div>
+            <div id="intro" class="content-full">
+                <div class="ref">
+                    <a href="#cont" style=" color: black;  float: left;">< К оглавлению</a>
+                    <a style=" color: black; text-decoration: none; font-size: 40px; float: left; margin-left: 25%;">Введение</a>
+                    <a href="#intro" style=" color: black;  float: right;">Введение ></a>
+                </div>
+                <div class= "text">Интернет вещей (англ. Internet of Things, IoT) — концепция вычислительной сети физических предметов («вещей»),
+                    оснащённых встроенными технологиями для взаимодействия друг с другом или с внешней средой, рассматривающая организацию таких сетей как явление, способное перестроить экономические и общественные процессы,
+                    исключающее из части действий и операций необходимость участия человека.
+                    Концепция сформулирована в 1999 году как осмысление перспектив широкого применения средств радиочастотной идентификации для взаимодействия физических предметов между собой и с внешним окружением.
+                    Наполнение концепции «интернета вещей» многообразным технологическим содержанием и внедрение практических решений для её реализации начиная с 2010-х годов считается устойчивой тенденцией в информационных технологиях,
+                    прежде всего, благодаря повсеместному распространению беспроводных сетей, появлению облачных вычислений, развитию технологий межмашинного взаимодействия, началу активного перехода на IPv6[4] и освоению программно-конфигурируемых сетей.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
